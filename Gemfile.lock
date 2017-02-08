@@ -133,6 +133,7 @@ GEM
     duktape (1.3.0.6)
     equalizer (0.0.11)
     erubis (2.7.0)
+    excon (0.55.0)
     execjs (2.7.0)
     ffi (1.9.17)
     flash_cookie_session (1.1.6)
@@ -155,6 +156,12 @@ GEM
       activesupport
       multi_json (>= 1.3.2)
     hashie (3.5.1)
+    heroics (0.0.17)
+      erubis (~> 2.0)
+      excon
+      moneta
+      multi_json (>= 1.9.2)
+      netrc
     highline (1.7.8)
     httparty (0.13.7)
       json (~> 1.8)
@@ -281,6 +288,7 @@ GEM
     multi_json (1.11.3)
     multi_xml (0.6.0)
     net-ssh (3.0.2)
+    netrc (0.11.0)
     nokogiri (1.6.8.1)
       mini_portile2 (~> 2.1.0)
     nokogumbo (1.4.10)
@@ -288,6 +296,8 @@ GEM
     nprogress-rails (0.1.6.8)
     origin (2.3.0)
     orm_adapter (0.5.0)
+    platform-api (0.3.0)
+      heroics (~> 0.0.10)
     pony (1.11)
       mail (>= 2.0)
     puma (3.7.0)
@@ -408,6 +418,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   locomotivecms (~> 3.2.0)
+  platform-api (~> 0.3.0)
   puma
   rails (= 4.2.7.1)
   sass-rails (~> 5.0)

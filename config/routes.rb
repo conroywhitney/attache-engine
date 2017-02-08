@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-
   # Locomotive Back-office
   mount Locomotive::Engine => '/admin', as: 'locomotive' # you can change the value of the path, by default set to "/locomotive"
 

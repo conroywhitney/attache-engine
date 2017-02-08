@@ -6,7 +6,7 @@ Dragonfly.app(:engine).configure do
 
   verify_urls true
 
-  secret '80a7bea60d7d565923a99eea259ddf2a015646b7cf3cb9204afab0f34f6dc720'
+  secret 'b1987bc8d23f64a2871f530cfa7b70ebe1b6f1bfd2ecf91f6ba2b7235baff15a'
 
   url_format '/images/dynamic/:job/:sha/:basename.:ext'
 
