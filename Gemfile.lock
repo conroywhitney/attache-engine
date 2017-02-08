@@ -126,6 +126,7 @@ GEM
       warden (~> 1.2.3)
     devise-encryptable (0.2.0)
       devise (>= 2.1.0)
+    dotenv (2.2.0)
     dragonfly (1.0.12)
       addressable (~> 2.3)
       multi_json (~> 1.0)
@@ -409,6 +410,7 @@ DEPENDENCIES
   byebug
   carrierwave-aws
   coffee-rails (~> 4.1.0)
+  dotenv
   jbuilder (~> 2.0)
   jquery-rails
   locomotivecms (~> 3.2.0)

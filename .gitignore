@@ -12,6 +12,6 @@
 !/log/.keep
 /tmp
 
-# Ignore sites
 public/sites/*
+.env
 
