@@ -136,8 +136,6 @@ test:
 production:
   clients:
     default:
-      database: attache_engine_production
-      hosts:
-        - localhost:27017
+      uri: <%= ENV['MONGODB_URI'] %>
       options:
         max_pool_size: 1
